@@ -116,7 +116,6 @@ Python-Series/
 ├── basics.py
 ├── variables.py
 ├── operators.py
-├── README.md
 ```
 
 ## Future Topics
