@@ -17,7 +17,6 @@ Each program is designed to explain a specific Python concept in a simple and un
 
 ## Topics Covered
 
-  DAY = 1
   
 * Hello World Program
 * Print Statements
@@ -43,8 +42,6 @@ Each program is designed to explain a specific Python concept in a simple and un
 
 ```python
 
-
-   DAY = 2
 
 ## Learning Outcomes
 
@@ -90,9 +87,147 @@ Python-Series/
 ├── basics.py
 ├── variables.py
 ├── operators.py
+
+
+# Python Input, Output, String Formatting & Comments
+
+## Overview
+
+This project demonstrates the basics of Python programming, including taking user input, displaying output, converting data types, formatting strings using f-strings, calculating values, and writing comments. It is designed for beginners who are learning Python fundamentals.
+
+---
+
+## Features
+
+* Accepts user input using the `input()` function.
+* Displays output using the `print()` function.
+* Converts string input to integers using `int()`.
+* Uses formatted strings (f-strings) for clean and readable output.
+* Calculates the age difference between two people.
+* Demonstrates the use of the `abs()` function.
+* Shows examples of single-line and multi-line comments.
+
+---
+
+## Concepts Covered
+
+### User Input
+
+* Reading input from the keyboard.
+* Storing user input in variables.
+
+### Output
+
+* Printing values using the `print()` function.
+* Displaying multiple values together.
+
+### Type Conversion
+
+* Converting string input into integers using `int()`.
+
+### Formatted Strings
+
+* Using f-strings to embed variables directly into strings.
+
+### Mathematical Operations
+
+* Calculating the absolute difference between two ages using `abs()`.
+
+### Comments
+
+* Writing single-line comments using `#`.
+* Understanding multi-line comment conventions using triple quotes (`'''` or `"""`).
+
+---
+
+## Sample Output
+
+```text
+Age: 20
+Your age is: 20
+
+Enter your name: Varshan
+Enter your age: 21
+
+Boy's name: Rahul
+Girl's name: Priya
+Boy's name is: Rahul
+Girl's name is: Priya
+
+Boy's name: Rahul
+Boy's age: 22
+Girl's name: Priya
+Girl's age: 20
+
+Boy's name is Rahul, Boy's age is 22, and Girl's name is Priya and Girl's age is 20
+
+Rahul loves Priya. The age difference is 2.
+
+This is a single line comment example.
+This is a multi-line comment example.
 ```
 
-  DAY = 3
+---
+
+## Functions Used
+
+| Function  | Purpose                                |
+| --------- | -------------------------------------- |
+| `input()` | Accepts input from the user            |
+| `print()` | Displays output on the screen          |
+| `int()`   | Converts a string to an integer        |
+| `abs()`   | Returns the absolute value of a number |
+| `f""`     | Creates formatted strings              |
+
+---
+
+## Learning Outcomes
+
+After completing this program, you will understand how to:
+
+* Take input from users.
+* Display formatted output.
+* Convert data types.
+* Perform simple calculations.
+* Use f-strings effectively.
+* Write clean and well-documented Python code with comments.
+
+---
+
+## Requirements
+
+* Python 3.x
+
+---
+
+## How to Run
+
+1. Save the code as `Day3.py`.
+2. Open a terminal or command prompt.
+3. Navigate to the project folder.
+4. Run the program using:
+
+```bash
+python Day3.py
+```
+
+---
+
+## Project Structure
+
+```text
+Python-Series/
+│── Day3.py
+└── README.md
+```
+
+---
+
+## License
+
+This project is intended for educational and learning purposes. Feel free to use and modify it to practice Python programming concepts.
+
+
 ## Future Topics
 
 * User Input
