@@ -17,6 +17,8 @@ Each program is designed to explain a specific Python concept in a simple and un
 
 ## Topics Covered
 
+  DAY = 1
+  
 * Hello World Program
 * Print Statements
 * Variables
@@ -40,37 +42,9 @@ Each program is designed to explain a specific Python concept in a simple and un
 ## Sample Program
 
 ```python
-DAY== 1
-
-print("hello world")
-
-print("my name is varshan")
-print("namskara")
 
 
-DAY== 2
-
-name = "Varshan"
-age = 20
-is_student = True
-weight = 59.2
-
-print("My name is", name)
-print("I am", age, "years old")
-print("I am a student:", is_student)
-print("My weight is", weight, "kg")
-
-a = 10
-b = 5
-
-print("The sum of a and b is:", a + b)
-print("The difference of a and b is:", a - b)
-print("The product of a and b is:", a * b)
-print("The division of a and b is:", a / b)
-print("The modulus of a and b is:", a % b)
-print("The floor division of a and b is:", a // b)
-print("The exponentiation of a and b is:", a ** b)
-```
+   DAY = 2
 
 ## Learning Outcomes
 
@@ -118,6 +92,7 @@ Python-Series/
 ├── operators.py
 ```
 
+  DAY = 3
 ## Future Topics
 
 * User Input
