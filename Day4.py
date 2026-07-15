@@ -79,10 +79,22 @@ print(2 not in my_list) # false, 2 is in the list
 
 #bitwise operator
 # It performs operations on binary representation of integers
-
 a = 5   #binary:101
 b = 3   #binary:011
 
 #binary AND
 
 print( a & b ) # output 1(binary 001)
+
+
+#{Python Operator Summary
+#Operator Type	Operators
+#Arithmetic	+, -, *, /, %, **, //
+#Assignment	=, +=, -=, *=, /=, %=, **=, //=, &=, `
+#Comparison	==, !=, >, <, >=, <=
+#Logical	and, or, not
+#Membership	in, not in
+#Identity	is, is not
+#Bitwise	&, `
+
+#This version is clean, accurate, and suitable for beginners learning Python operators.
