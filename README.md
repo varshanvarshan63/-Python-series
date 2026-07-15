@@ -302,6 +302,206 @@ chandan     is a good boy
 
 ---
 
+# README.md
+
+````markdown
+# Python Operators
+
+## Overview
+
+This project demonstrates the basic operators available in Python. It is designed for beginners to understand how different types of operators work through simple examples.
+
+The program covers arithmetic calculations, variable assignments, comparisons, logical operations, membership testing, and bitwise operations.
+
+## Features
+
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Membership Operators
+- Bitwise Operators
+- Well-commented examples for easy learning
+
+## Operator Types Covered
+
+### 1. Arithmetic Operators
+
+Used to perform mathematical calculations.
+
+Operators:
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+- `%` Modulus
+- `**` Exponentiation
+
+Example:
+
+```python
+a = 10
+b = 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+```
+
+---
+
+### 2. Assignment Operators
+
+Used to assign or update variable values.
+
+Operators:
+
+- `=`
+- `+=`
+- `-=`
+- `*=`
+- `/=`
+- `%=`
+- `**=`
+
+Example:
+
+```python
+x = 5
+x += 3
+x -= 2
+x *= 4
+```
+
+---
+
+### 3. Comparison Operators
+
+Compare two values and return either `True` or `False`.
+
+Operators:
+
+- `==`
+- `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+
+Example:
+
+```python
+print(a == b)
+print(a != b)
+print(a > b)
+```
+
+---
+
+### 4. Logical Operators
+
+Used to combine multiple conditions.
+
+Operators:
+
+- `and`
+- `or`
+- `not`
+
+Example:
+
+```python
+x = 5
+y = 10
+
+print(x < 10 and y > 5)
+print(x < 10 or y < 5)
+print(not(x < 10 and y > 5))
+```
+
+---
+
+### 5. Membership Operators
+
+Check whether a value exists inside a sequence.
+
+Operators:
+
+- `in`
+- `not in`
+
+Example:
+
+```python
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
+print("orange" not in fruits)
+```
+
+---
+
+### 6. Bitwise Operators
+
+Perform operations on the binary representation of integers.
+
+Operators:
+
+- `&` (AND)
+- `|` (OR)
+- `^` (XOR)
+- `~` (NOT)
+- `<<` (Left Shift)
+- `>>` (Right Shift)
+
+Example:
+
+```python
+a = 5
+b = 3
+
+print(a & b)
+```
+
+---
+ #DAY 4
+## Operator Summary
+
+| Operator Type | Operators |
+|---------------|-----------|
+| Arithmetic | `+`, `-`, `*`, `/`, `%`, `**`, `//` |
+| Assignment | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=` |
+| Comparison | `==`, `!=`, `>`, `<`, `>=`, `<=` |
+| Logical | `and`, `or`, `not` |
+| Membership | `in`, `not in` |
+| Identity | `is`, `is not` |
+| Bitwise | `&`, `|`, `^`, `~`, `<<`, `>>` |
+
+
+## Learning Outcomes
+
+After completing this program, you will understand:
+
+- Performing mathematical operations in Python
+- Updating variable values using assignment operators
+- Comparing values using comparison operators
+- Combining conditions with logical operators
+- Checking membership in lists and other sequences
+- Performing basic binary operations using bitwise operators
+
+## Project Structure
+
+```
+python-operators/
+│
+├── operators.py
+└── README.md
+```
+
+
 ## Methods Used
 
 | Method | Description |
