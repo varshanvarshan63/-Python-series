@@ -562,7 +562,132 @@ Python-Series/
 ```
 
 
+#
+---
 
+# 📘 Lists in Python
+
+## **1. What is a List?**
+A **list** is a collection of items that are:
+- **Ordered** → Elements maintain their position.
+- **Mutable** → You can change, add, or remove elements.
+- **Allow duplicates** → Same value can appear multiple times.
+- Can store **different data types** (integers, strings, booleans, even other lists).
+
+### **Syntax**
+```python
+my_list = [element1, element2, element3, ...]
+```
+
+### **Examples**
+```python
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = ["apple", 3, True]
+```
+
+---
+
+## **2. Accessing List Elements**
+Python uses **zero-based indexing**.
+
+### **Syntax**
+```python
+list_name[index]
+```
+
+### **Examples**
+```python
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])   # apple
+print(fruits[2])   # cherry
+```
+
+🔹 Negative indexing:
+```python
+print(fruits[-1])  # cherry
+print(fruits[-2])  # banana
+```
+
+---
+
+## **3. Modifying Lists**
+
+### **Change an element**
+```python
+fruits[1] = "orange"
+print(fruits)  # ['apple', 'orange', 'cherry']
+```
+
+### **Add elements**
+- `append()` → Add to end
+- `insert()` → Add at specific index
+```python
+fruits.append("grape")
+fruits.insert(1, "kiwi")
+```
+
+### **Remove elements**
+- `remove()` → Remove by value
+- `pop()` → Remove by index (default last)
+- `clear()` → Remove all
+```python
+fruits.remove("orange")
+fruits.pop(0)
+fruits.clear()
+```
+
+---
+
+## **4. Slicing Lists**
+Extract portions using `[start:stop:step]`.
+
+```python
+numbers = [0, 1, 2, 3, 4, 5, 6]
+print(numbers[1:4])   # [1, 2, 3]
+print(numbers[:4])    # [0, 1, 2, 3]
+print(numbers[2:])    # [2, 3, 4, 5, 6]
+print(numbers[::2])   # [0, 2, 4, 6]
+```
+
+---
+
+## **5. List Functions & Methods**
+
+### **Functions**
+- `len(list)` → Length
+- `sorted(list)` → Returns new sorted list
+- `sum(list)` → Sum of numeric elements
+
+### **Methods**
+- `index(element)` → Position of element
+- `count(element)` → Frequency
+- `reverse()` → Reverse in place
+- `sort()` → Sort in place
+
+---
+
+## **6. Nested Lists**
+Lists can contain other lists (like matrices).
+
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[0])     # [1, 2, 3]
+print(matrix[1][1])  # 5
+```
+
+---
+
+
+---
+
+
+##
 ## Future Topics
 
 * User Input
