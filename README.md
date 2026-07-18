@@ -1423,7 +1423,290 @@ Tuples and Sets are fundamental Python data structures with distinct purposes. T
 
 ---
 
+-------------# 📘 Python Dictionaries - Complete Guide
 
+A beginner-friendly Python program demonstrating how to use **dictionaries**, one of Python's most useful built-in data structures. This project covers dictionary creation, accessing values, updating data, removing items, dictionary methods, and practical examples.
+
+---
+
+# 📖 What is a Dictionary?
+
+A **dictionary** is a built-in Python data type used to store data in **key-value pairs**.
+
+* **Keys** are unique identifiers.
+* **Values** are the data associated with those keys.
+* Dictionaries are **mutable**, meaning they can be modified after creation.
+* Keys must be immutable (such as strings, numbers, or tuples).
+
+### Syntax
+
+```python
+dictionary_name = {
+    "key1": "value1",
+    "key2": "value2"
+}
+```
+
+---
+
+#  Features Covered
+
+* Creating dictionaries
+* Accessing values using keys
+* Safe access using `get()`
+* Adding new key-value pairs
+* Updating existing values
+* Removing elements with `pop()`
+* Using dictionary methods
+
+  * `keys()`
+  * `values()`
+  * `items()`
+  * `update()`
+* Working with multiple dictionaries
+* Performing calculations using dictionary values
+* Real-world examples
+
+---
+
+# 📂 Project Structure
+
+```
+Dictionary/
+│
+├── dictionary.py
+└── README.md
+```
+
+---
+
+#  Examples Included
+
+## 1. Birthday Dictionary
+
+Stores birthdays using names as keys.
+
+```python
+birthday = {
+    "virat": "05-11-1988",
+    "darshan": "09-08-1980"
+}
+```
+
+Example Output
+
+```
+05-11-1988
+```
+
+---
+
+## 2. Karnataka Food Dictionary
+
+Maps Karnataka cities to their famous foods.
+
+```python
+karnataka_food = {
+    "bengaluru": "dose",
+    "mysuru": "mysorepak",
+    "mangaluru": "neer dose"
+}
+```
+
+Output
+
+```
+mysorepak
+```
+
+---
+
+## 3. Safe Access Using `get()`
+
+Instead of causing an error when a key doesn't exist, `get()` safely returns a default value.
+
+Example
+
+```python
+birthday.get("varshan", "Not found")
+```
+
+Output
+
+```
+Not found
+```
+
+---
+
+## 4. Adding Elements
+
+```python
+birthday["sudeep"] = "02-09-1973"
+```
+
+---
+
+## 5. Updating Values
+
+```python
+birthday["virat"] = "05-11-2026"
+```
+
+---
+
+## 6. Removing Elements
+
+```python
+birthday.pop("virat")
+```
+
+---
+
+## 7. Dictionary Methods
+
+### `keys()`
+
+Returns all keys.
+
+```python
+birthday.keys()
+```
+
+### `values()`
+
+Returns all values.
+
+```python
+birthday.values()
+```
+
+### `items()`
+
+Returns all key-value pairs.
+
+```python
+birthday.items()
+```
+
+### `update()`
+
+Merges another dictionary into the existing dictionary.
+
+```python
+new_dish = {
+    "huballi": "Girmit"
+}
+
+karnataka_food.update(new_dish)
+```
+
+---
+
+## 8. Shopping Item Example
+
+Each item is represented as a dictionary.
+
+```python
+item1 = {
+    "name": "milk",
+    "weight": 1,
+    "price": 50
+}
+```
+
+The program calculates:
+
+* Product names
+* Total weight
+* Total price
+
+---
+
+# 📚 Dictionary Methods Summary
+
+| Method     | Description                                |
+| ---------- | ------------------------------------------ |
+| `get()`    | Safely retrieves a value by key            |
+| `keys()`   | Returns all keys                           |
+| `values()` | Returns all values                         |
+| `items()`  | Returns all key-value pairs                |
+| `update()` | Updates dictionary with another dictionary |
+| `pop()`    | Removes a specific key                     |
+| `clear()`  | Removes all items                          |
+| `copy()`   | Creates a shallow copy                     |
+
+---
+
+# ▶️ How to Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+### Navigate to the Project
+
+```bash
+cd your-repository
+```
+
+### Run the Program
+
+```bash
+python dictionary.py
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+After completing this project, you will understand:
+
+* How dictionaries work in Python
+* Key-value pair storage
+* Dictionary CRUD operations
+* Dictionary methods
+* Safe data retrieval
+* Updating and deleting data
+* Real-world dictionary applications
+
+---
+
+# 🛠 Requirements
+
+* Python 3.x
+* Any Python IDE (VS Code, PyCharm, IDLE, etc.)
+
+---
+
+# 📖 Topics Covered
+
+* Python Basics
+* Dictionaries
+* Key-Value Pairs
+* Dictionary Methods
+* CRUD Operations
+* Data Structures
+* Python Programming
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
 ##
 ## Future Topics
 
