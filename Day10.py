@@ -52,3 +52,15 @@ for i in range(1,11):
 for i in range(2, 11):
     for j in range(1, 11):
         print(f"{i}x{j}={i*j}")#o/p:tables of 2x1=2 to 10x10=100
+
+
+
+
+for i in range (1,6):
+    print (i)
+
+items = [0]
+terms = [1, 2, 3]
+for i in terms:
+    print(items)
+    items.append(i)
