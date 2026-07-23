@@ -6,7 +6,7 @@ A beginner-friendly Python repository that covers the fundamentals of Python pro
 
 This repository contains Python programs that demonstrate:
 
-* Basic output using `print()`
+* Basic output using "print"()
 * Variables and data types
 * Arithmetic operations
 * Simple expressions
