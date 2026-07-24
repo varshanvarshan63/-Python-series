@@ -1,5 +1,5 @@
 # Concept of functions in Python
-
+#concept 
 # A function is a reusable block of code that performs a specific task.
 # Functions help organize code, avoid repetition, and make programs easier to read.
 
