@@ -6,5 +6,4 @@ print("namskara")
 print ("started to learn the python")
 print("this is vs code")
 
- print ("binod":)
 
